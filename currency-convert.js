@@ -50,8 +50,8 @@ const convertCurrencyAlt = async (from, to, amount) => {
     const exchangedAmount = amount * rate;
 
     return `${amount} ${from} is worth ${exchangedAmount} ${to}. 
-    ${to} can be used on the following:
-            ${countries.join(', ')} `;
+        ${to} can be used on the following:
+        ${countries.join(', ')} `;
 
 }
 
